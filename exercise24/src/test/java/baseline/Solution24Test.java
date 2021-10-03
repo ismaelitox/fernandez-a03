@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class Solution24Test {
 
     @Test
-    public void isAnagramTest(){
+    void isAnagramTest(){
 
         assertTrue(Solution24.isAnagram("kid","idk"));
         assertFalse(Solution24.isAnagram("dog","cat"));
