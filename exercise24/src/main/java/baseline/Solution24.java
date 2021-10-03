@@ -39,7 +39,7 @@ public class Solution24 {
     // if strings arent equal return false.
     // if strings have the same contents return true
     // using arrays to compare elements inside of arrays with .sort java function
-        private static boolean isAnagram(String str1, String str2){
+        public static boolean isAnagram(String str1, String str2){
             if(str1.length() != str2.length())
                 return false;
             else
