@@ -4,28 +4,20 @@ package baseline;
  *  Copyright 2021 Jonah Fernandez
  */
 
-import java.util.Scanner;
 
+import java.text.MessageFormat;
+// Main Class driving our application
+// Print statement with months returned
 public class Solution26 {
-    // Scanner Object
-    private static final Scanner in = new Scanner(System.in);
+    public static void main(String[] args) {
 
-    // requirements asking for program to pay off credit card
-    // how many months will it take to pay off
-    // prompt asking for balance
-    // prompt asking for APR
-    // prompt asking for the monthly payment
-    // return int number of months needed with ciel
+        int months = PaymentCalculator.calculateMonthsUntilPaidOff();
+        System.out.println(MessageFormat.format("It will take you {0} months to pay off this card", months));
 
-    // declare seprate method to do calculations
+    }
+    // declare separate method to do calculations
     // use formula: n = -(1/30) * log(1 +b/p * (1 - (1 + i)^30)) / log(1 +i)
     // n is number of months
     // i is daily rate APR/365
     // p is the monthly payment
-}
-class PaymentCalculator{
-
-    public int calculateMonthsUntilPaidOff(){
-        return 0;
-    }
 }
