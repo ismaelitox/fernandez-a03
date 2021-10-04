@@ -13,7 +13,7 @@ class Solution25Test {
         boolean noLetter = Solution25.hasLetter("122232");
         assertFalse(noLetter);
     }
-    
+
     @Test
     void hasSpecialCharTest(){
         boolean hasSymbol = Solution25.hasSymbol("yeabud@yy");

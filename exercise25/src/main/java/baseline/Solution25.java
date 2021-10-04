@@ -1,5 +1,8 @@
 package baseline;
-
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Jonah Fernandez
+ */
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
